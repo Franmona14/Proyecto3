@@ -220,3 +220,71 @@ body {
   padding: 1rem;
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .nav {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav a {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .gallery-row img,
+  .gallery-row video {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icono-flotante {
+    width: 50px;
+    height: 50px;
+  }
+
+  .float-left,
+  .float-right {
+    top: auto;
+    bottom: 10px;
+  }
+
+  .float-left { left: 10px; }
+  .float-right { right: 10px; }
+}
