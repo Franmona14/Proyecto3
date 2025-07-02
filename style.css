@@ -53,7 +53,7 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  background: url('Tu-imagen-central.jpg') center/cover no-repeat;
+  background: url('fondo.jpg') center/cover no-repeat;
   height: 400px;
   display: flex;
   align-items: center;
